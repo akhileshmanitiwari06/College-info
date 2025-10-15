@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us - Pt.JSRDIC</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="main">
+        <div class="navbar">
+            <div class="icon">
+                <a href="index.html" class="logo">Pt.JSRDIC</a>
+            </div>
+            <div class="menu">
+                <ul>
+                    <li><a href="index.html"><i class="fas fa-home"></i> HOME</a></li>
+                    <li><a href="about.html"><i class="fas fa-info-circle"></i> ABOUT</a></li>
+                    <li><a href="courses.html"><i class="fas fa-graduation-cap"></i> COURSES</a></li>
+                    <li><a href="services.html"><i class="fas fa-cogs"></i> SERVICES</a></li>
+                    <li><a href="contact.html" class="active"><i class="fas fa-phone"></i> CONTACT</a></li>
+                </ul>
+            </div>
+            <div class="search">
+                <input class="srch" type="search" placeholder="Search courses...">
+                <a href="courses.html" class="btn"><i class="fas fa-search"></i> Search</a>
+            </div>
+        </div>
+
+        <div class="page-content">
+            <div class="page-hero">
+                <h1>Contact Us</h1>
+                <p>Get in touch with us for any inquiries or support</p>
+            </div>
+            
+            <div class="contact-form">
+                <form id="contactForm">
+                    <div class="form-group">
+                        <label for="name">Full Name</label>
+                        <input type="text" id="name" class="form-control" placeholder="Enter your full name" required>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="email">Email Address</label>
+                        <input type="email" id="email" class="form-control" placeholder="Enter your email" required>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="phone">Phone Number</label>
+                        <input type="tel" id="phone" class="form-control" placeholder="Enter your phone number">
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="subject">Subject</label>
+                        <select id="subject" class="form-control" required>
+                            <option value="">Select a subject</option>
+                            <option value="course">Course Inquiry</option>
+                            <option value="admission">Admission</option>
+                            <option value="support">Technical Support</option>
+                            <option value="partnership">Partnership</option>
+                            <option value="other">Other</option>
+                        </select>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="message">Message</label>
+                        <textarea id="message" class="form-control" placeholder="Enter your message" required></textarea>
+                    </div>
+                    
+                    <button type="submit" class="btn" style="width: 100%; padding: 15px;">Send Message</button>
+                </form>
+            </div>
+
+            <div class="features" style="margin-top: 60px;">
+                <div class="feature-card">
+                    <i class="fas fa-map-marker-alt"></i>
+                    <h3>Visit Our Campus</h3>
+                    <p>123 Education Street, Learning City, LC 12345</p>
+                </div>
+                <div class="feature-card">
+                    <i class="fas fa-phone"></i>
+                    <h3>Call Us</h3>
+                    <p>+1 (555) 123-4567<br>+1 (555) 987-6543</p>
+                </div>
+                <div class="feature-card">
+                    <i class="fas fa-envelope"></i>
+                    <h3>Email Us</h3>
+                    <p>info@ptjsrdic.com<br>admissions@ptjsrdic.com</p>
+                </div>
+                <div class="feature-card">
+                    <i class="fas fa-clock"></i>
+                    <h3>Working Hours</h3>
+                    <p>Monday - Friday: 9:00 AM - 6:00 PM<br>Saturday: 10:00 AM - 4:00 PM</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- Footer (same as index.html) -->
+        <footer class="footer">
+            <div class="footer-container">
+                <div class="footer-main">
+                    <div class="footer-section">
+                        <a href="index.html" class="footer-logo">Pt.JSRDIC</a>
+                        <p class="footer-description">
+                            Empowering students with industry-relevant skills in web development and design. 
+                            Join us to transform your career and become a tech professional.
+                        </p>
+                        <div class="social-links">
+                            <a href="#" class="social-link"><i class="fab fa-facebook-f"></i></a>
+                            <a href="#" class="social-link"><i class="fab fa-twitter"></i></a>
+                            <a href="#" class="social-link"><i class="fab fa-instagram"></i></a>
+                            <a href="#" class="social-link"><i class="fab fa-linkedin-in"></i></a>
+                            <a href="#" class="social-link"><i class="fab fa-youtube"></i></a>
+                        </div>
+                    </div>
+
+                    <div class="footer-section">
+                        <h4>Quick Links</h4>
+                        <ul class="footer-links">
+                            <li><a href="index.html"><i class="fas fa-chevron-right"></i> Home</a></li>
+                            <li><a href="about.html"><i class="fas fa-chevron-right"></i> About Us</a></li>
+                            <li><a href="courses.html"><i class="fas fa-chevron-right"></i> Courses</a></li>
+                            <li><a href="services.html"><i class="fas fa-chevron-right"></i> Services</a></li>
+                            <li><a href="contact.html"><i class="fas fa-chevron-right"></i> Contact</a></li>
+                        </ul>
+                    </div>
+
+                    <div class="footer-section">
+                        <h4>Our Courses</h4>
+                        <ul class="footer-links">
+                            <li><a href="courses.html"><i class="fas fa-chevron-right"></i> Web Development</a></li>
+                            <li><a href="courses.html"><i class="fas fa-chevron-right"></i> UI/UX Design</a></li>
+                            <li><a href="courses.html"><i class="fas fa-chevron-right"></i> Frontend Development</a></li>
+                            <li><a href="courses.html"><i class="fas fa-chevron-right"></i> Backend Development</a></li>
+                            <li><a href="courses.html"><i class="fas fa-chevron-right"></i> Full Stack Course</a></li>
+                        </ul>
+                    </div>
+
+                    <div class="footer-section">
+                        <h4>Contact Info</h4>
+                        <div class="contact-info">
+                            <div class="contact-item">
+                                <i class="fas fa-map-marker-alt"></i>
+                                <span>123 Education Street, Learning City, LC 12345</span>
+                            </div>
+                            <div class="contact-item">
+                                <i class="fas fa-phone"></i>
+                                <span>+1 (555) 123-4567</span>
+                            </div>
+                            <div class="contact-item">
+                                <i class="fas fa-envelope"></i>
+                                <span>info@ptjsrdic.com</span>
+                            </div>
+                            <div class="contact-item">
+                                <i class="fas fa-clock"></i>
+                                <span>Mon - Fri: 9:00 AM - 6:00 PM</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="footer-bottom">
+                    <div class="footer-bottom-content">
+                        <p>&copy; 2024 Pt.JSRDIC. All rights reserved.</p>
+                        <div class="footer-bottom-links">
+                            <a href="#">Privacy Policy</a>
+                            <a href="#">Terms of Service</a>
+                            <a href="#">Cookie Policy</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </div>
+
+    <script>
+        // Contact form submission
+        document.addEventListener('DOMContentLoaded', function() {
+            const contactForm = document.getElementById('contactForm');
+            if (contactForm) {
+                contactForm.addEventListener('submit', function(e) {
+                    e.preventDefault();
+                    
+                    // Get form values
+                    const name = document.getElementById('name').value;
+                    const email = document.getElementById('email').value;
+                    const subject = document.getElementById('subject').value;
+                    
+                    // Show success message
+                    alert(`Thank you ${name}! Your message has been sent successfully. We will contact you at ${email} regarding your ${subject} inquiry.`);
+                    
+                    // Reset form
+                    contactForm.reset();
+                });
+            }
+        });
+    </script>
+</body>
+</html>
